@@ -45,7 +45,7 @@ if st.session_state.page == "login":
     date = st.text_input("What is our date?")
 
     if st.button("Enter 💖", key="enter"):
-        if name.upper() == "MICHELLE" and date == "26":
+        if name.upper() == "MONKLET" and date == "26":
             st.session_state.page = "page1"
             st.rerun()
         else:
@@ -138,3 +138,4 @@ elif st.session_state.page == "page4":
     if st.button("⬅️ Back to Chapter Three", key="back4"):
         st.session_state.page = "page3"
         st.rerun()
+
